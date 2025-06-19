@@ -6,6 +6,18 @@ st.set_page_config(layout="wide")
 st.title("DataBlender")
 st.subheader("Upload and prepare multiple datasets for joining or unioning.")
 
+# DataWizard callout
+with st.container():
+    st.markdown(
+        """
+        <div style='background-color:#f0f2f6;padding:15px;border-radius:5px;margin-bottom:20px'>
+        <strong>Need to clean, analyze, or visualize your dataset?</strong><br>
+        <a href='https://datawizardtool.streamlit.app/' target='_blank'>Click here to open DataWizard.</a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 st.write(
     "This tool allows you to upload up to 5 datasets and prepare them for merging. "
     "After uploading, you can choose to join or union them in a future step."
