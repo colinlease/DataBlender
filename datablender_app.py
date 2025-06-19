@@ -4,7 +4,7 @@ import pandas as pd
 # Config
 st.set_page_config(layout="wide")
 st.title("DataBlender")
-st.subheader("Upload and prepare multiple datasets for joining or unioning.")
+st.subheader("Upload multiple datasets for joining, unioning, pivoting, and more.")
 
 # DataWizard callout
 with st.container():
