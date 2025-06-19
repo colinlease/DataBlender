@@ -11,7 +11,7 @@ with st.container():
     st.markdown(
         """
         <div style='background-color:#f0f2f6;padding:15px;border-radius:5px;margin-bottom:20px'>
-        <strong>Need to clean, analyze, or visualize your dataset?</strong><br>
+        <strong>Need to conduct EDA or visualize your dataset?</strong><br>
         <a href='https://datawizardtool.streamlit.app/' target='_blank'>Click here to open DataWizard.</a>
         </div>
         """,
