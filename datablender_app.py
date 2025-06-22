@@ -144,7 +144,7 @@ if len(valid_dataframes) >= 1:
         if df_to_upload is not None and isinstance(df_to_upload, pd.DataFrame) and not df_to_upload.empty:
             if st.button("📤 Send to FileHub"):
                 try:
-                    st.warning("📡 Attempting to upload to DataWizard...")
+                    st.warning("📡 Attempting to upload to FileHub...")
                     token = upload_dataframe(df_to_upload, source_app="DataBlender", original_filename="datablended_output.csv")
                     st.success(f"✅ File sent to FileHub! Transfer Token: {token}")
                     st.info("To use this file in any other DataWiz app, enter this token on the left side of the screen.")
